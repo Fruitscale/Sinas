@@ -8,4 +8,7 @@ def create_app():
     from sinas.views import frontend
     app.register_blueprint(frontend)
 
+    from sinas.views import api
+    app.register_blueprint(api)
+
     return app
