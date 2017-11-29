@@ -11,4 +11,5 @@ def create_app():
     from sinas.views import api
     app.register_blueprint(api)
 
+    app.secret_key = 'aslgkjawlegj92039jr23rlkj9'
     return app
